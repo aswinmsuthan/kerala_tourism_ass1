@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+}
+
+.container{
+    margin-top: 10%;
+    
+
+}
+.login-form{
+    margin-top: 15%;
+    margin-bottom: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 1px solid rgb(38, 38, 95);
+    background-color: beige;
+    padding: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.login-form h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(0, 0, 80);
+}

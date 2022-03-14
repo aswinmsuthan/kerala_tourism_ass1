@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* list of home,login */
+.navbar-nav{
+    margin-right: 200px;
+
+}
+.navbar-nav > li{
+    margin-right: 10px;
+
+}
+
+/* spacing of logo */
+.navbar-brand{
+    margin-left: 159px;
+}
+
+.nav-item > a{
+    font-size: 17px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.carousel-item > img{
+    height: 480px;
+}
+
+/* description */
+.container{
+    margin-left: 5px;
+    /* background-color: blanchedalmond; */
+}
+.text-center{
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.text-justify{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* district */
+.list-district{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.image-top{
+    position: relative;
+    text-align: center;
+    
+}
+.text-block{
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.75);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 1px;
+    width: 91%;
+    right: 15px;
+    bottom: 0px;
+
+}
+
+footer {
+    text-align: center;
+    padding: 7px;
+    background-color: rgb(68, 68, 68);
+    color: white;
+  }
