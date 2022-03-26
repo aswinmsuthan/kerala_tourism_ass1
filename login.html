@@ -49,16 +49,18 @@
    
        
           <div class="container">
-            <form class="login-form">
+            <form name="myform" class="login-form" action="#" onsubmit="return validate()">
                 <h3>Log In</h3>
                 <div class="mb-3">
                   <!-- <label for="exampleInputEmail1" class="form-label">Email address</label> -->
                   <input type="email" class="form-control"  placeholder="enter your email" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <label id="error"></label>
                   <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
                 </div>
                 <div class="mb-3">
                   <!-- <label for="exampleInputPassword1" class="form-label">Password</label> -->
                   <input type="password" class="form-control" placeholder="password" id="exampleInputPassword1">
+                  <label id="pswerror"></label>
                 </div>
                 <div class="mb-3">
                     <a href="#">forgot password?</a>
@@ -72,6 +74,9 @@
               </form>
           </div>
     <!-- /login -->
+
+
+    <script src="js/script.js"></script>
 
 
 </body>
